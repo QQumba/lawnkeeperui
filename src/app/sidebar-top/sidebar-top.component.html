@@ -1,0 +1,70 @@
+<div id="sidebar-top">
+  <a href="#">
+    <div id="logo" class="sidebar-item">
+      Lawn Keeper
+    </div>
+  </a>
+  <hr>
+
+  <a *ngIf="!loggedIn" routerLink="/login">
+    <div class="sidebar-item" routerLinkActive="active">
+      <div class="sidebar-item-inner">
+        <img src="../../assets/img/login.svg" alt="Login" class="icon">
+      </div>
+      <div class="sidebar-item-inner">
+        {{'sidebar.login' | translate}}
+      </div>
+    </div>
+  </a>
+
+  <a *ngIf="loggedIn" routerLink="/account">
+    <div class="sidebar-item" routerLinkActive="active">
+      <div class="sidebar-item-inner">
+        <img src="../../assets/img/user.svg" alt="User" class="icon">
+      </div>
+      <div class="sidebar-item-inner">
+        Account
+      </div>
+    </div>
+  </a>
+
+  <a *ngIf="loggedIn" (click)="logout()">
+    <div class="sidebar-item" routerLinkActive="active">
+      <div class="sidebar-item-inner">
+        <img src="../../assets/img/login.svg" alt="Logout" class="icon">
+      </div>
+      <div class="sidebar-item-inner">
+        {{'sidebar.logout' | translate}}
+      </div>
+    </div>
+  </a>
+
+  <a *ngIf="loggedIn" routerLink="/notifications">
+    <div class="sidebar-item notification-container" routerLinkActive="active">
+      <div>
+        <div class="sidebar-item-inner">
+          <img src="../../assets/img/notification.svg" alt="Bell" class="icon">
+        </div>
+        <div class="sidebar-item-inner">
+          {{'sidebar.notifications' | translate}}
+        </div>
+      </div>
+
+      <div class="notification-count">
+        44
+      </div>
+    </div>
+  </a>
+  <hr>
+
+  <a *ngIf="loggedIn" routerLink="/lawns">
+    <div class="sidebar-item" routerLinkActive="active">
+      <div class="sidebar-item-inner">
+        <img src="../../assets/img/grass1.svg" alt="Lawn" class="icon">
+      </div>
+      <div class="sidebar-item-inner">
+        {{'sidebar.lawns' | translate}}
+      </div>
+    </div>
+  </a>
+</div>

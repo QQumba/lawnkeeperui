@@ -1,0 +1,63 @@
+{
+  "auth": {
+    "email": "пошта",
+    "password": "пароль",
+    "password-confirm": "підтвердіть пароль",
+    "log-in": {
+      "title": "Вхід",
+      "link": "Увійти в існуючий аккаунт",
+      "submit": "Увійти"
+    },
+    "sign-up": {
+      "title": "Реєстрація",
+      "link": "Створити новий аккаунт",
+      "submit": "Зереєструватися"
+    }
+  },
+  "sidebar": {
+    "login": "Увійти",
+    "logout": "Вийти",
+    "notifications": "Сповіщення",
+    "lawns": "Газони"
+  },
+  "lawn": {
+    "title": "Газони",
+    "controls": "Керування",
+    "info": "Інформація",
+    "toggle": "Перемкнути",
+    "table": {
+      "name": "Назва",
+      "location": "Розташування",
+      "mode": "Режим",
+      "state": "Стан",
+      "toggle": "Перемкнути",
+      "minHumidity": "Макс. вологість",
+      "maxHumidity": "Мін. вологість",
+      "curHumidity": "Вологість",
+      "maxWaterConsumptionPerHour": "Максимальне споживання води за годину",
+      "curWaterConsumption": "Споживання води за годину"
+    }
+  },
+  "account": {
+    "name": "Ім'я",
+    "email": "Пошта",
+    "password": "Пароль",
+    "change-password": "змінити пароль",
+    "about": "Основна інформація",
+    "lawns": "Газони",
+    "notifications": "Сповіщення"
+  },
+  "schedule": {
+    "title": "Розклад",
+    "monday": "Понеділок",
+    "tuesday": "Вівторок",
+    "wednesday": "Середа",
+    "thursday": "Четвер",
+    "friday": "П'ятниця",
+    "saturday": "Субота",
+    "sunday": "Неділя",
+    "save": "Зберегти розклад?",
+    "ok": "Зберегти",
+    "no": "Відмінити"
+  }
+}

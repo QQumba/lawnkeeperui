@@ -1,0 +1,63 @@
+{
+  "auth": {
+    "email": "email",
+    "password": "password",
+    "password-confirm": "confirm password",
+    "log-in": {
+      "title": "Login",
+      "link": "I already have account",
+      "submit": "Log In"
+    },
+    "sign-up": {
+      "title": "Sign Up",
+      "link": "Create new account",
+      "submit": "Sign In"
+    }
+  },
+  "sidebar": {
+    "login": "Log in",
+    "logout": "Logout",
+    "notifications": "Notifications",
+    "lawns": "Lawns"
+  },
+  "lawn": {
+    "title": "Lawns",
+    "controls": "Control",
+    "info": "Information",
+    "toggle": "Toggle",
+    "table": {
+      "name": "Name",
+      "location": "Location",
+      "mode": "Mode",
+      "state": "State",
+      "toggle": "Toggle",
+      "minHumidity": "Min humidity",
+      "maxHumidity": "Max humidity",
+      "curHumidity": "Current humidity",
+      "maxWaterConsumptionPerHour": "Max water consumption / hour",
+      "curWaterConsumption": "Current water consumption / hour"
+    }
+  },
+  "account": {
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "change-password": "change password",
+    "about": "About",
+    "lawns": "Lawns",
+    "notifications": "Latest notifications"
+  },
+  "schedule": {
+    "title": "Schedule",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "save": "Save schedule?",
+    "ok": "Save",
+    "no": "Discard"
+  }
+}
